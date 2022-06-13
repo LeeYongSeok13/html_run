@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position 01</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0;
+            left: 0;
+            height: 100vh;
+            color: #fff;
+            text-align: center;
+            line-height: 100vh;
+
+        }
+
+        header {
+            background: #f00;
+        }
+
+        main {
+            background: #ff0;
+        }
+
+        footer {
+            background: #00f;
+        }
+
+        .container {
+            display: flex;
+        }
+
+        .container figure {
+            flex: 1;
+            line-height: 1.4;
+        }
+
+        .container figure:nth-child(2) {
+            background: #333;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="sticky">
+        header
+    </header>
+    <main class="sticky">
+        main
+    </main>
+    <section class="sticky">
+        <div class="container">
+            <figure>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque explicabo eligendi tempora expedita.
+                Eos
+                soluta similique ea facere, omnis, incidunt nihil laudantium autem fugit eligendi dolor! Delectus
+                maiores et culpa molestiae voluptatem at fuga rerum? Distinctio inventore quos, assumenda minus vel
+                voluptatem hic laborum impedit magni sint corrupti, explicabo dolores ratione veniam doloremque
+                sequi
+                fugit ipsum fugiat rerum voluptate quisquam, quia quidem ducimus minima. Reprehenderit deserunt quis
+                necessitatibus exercitationem dolorem aliquam, eveniet laborum atque tenetur architecto excepturi
+                voluptas similique rerum in voluptate, aliquid nostrum esse? Eaque omnis distinctio adipisci ipsa
+                reprehenderit. Ratione, ipsum quis rem ex sint alias a perferendis quidem eaque nobis dolore cumque
+                eos
+                facere, accusantium nemo mollitia at blanditiis? Tempora iste aspernatur veniam reprehenderit illo,
+                animi quam, quas provident odit facere fugit sit placeat sunt laudantium fuga id beatae eaque velit
+                inventore facilis modi! Quidem, temporibus pariatur provident aut porro officia voluptates sed
+                distinctio deleniti reprehenderit tenetur culpa earum ea sequi vitae neque omnis iste numquam
+                perspiciatis odio beatae sit. Dolorum reprehenderit accusantium perferendis, quis dolores explicabo
+                consectetur! Hic reiciendis aliquam quos, minus quae, sit in unde vel praesentium cumque consectetur
+                animi? Laudantium recusandae delectus in nostrum eius at magni rem quae, consequatur perferendis
+                corrupti odio cumque!
+            </figure>
+            <figure>
+
+            </figure>
+        </div>
+    </section>
+    <footer class="sticky">
+        footer
+    </footer>
+</body>
+
+</html>
