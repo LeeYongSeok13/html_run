@@ -1,0 +1,372 @@
+header {
+    width: 100%;
+}
+
+.top_bar {
+    position: relative;
+    height: 20px;
+    margin: 0 auto;
+    border-bottom: 1px solid #888888;
+    vertical-align: middle;
+}
+
+.top_bar .top_list>ul>li {
+    position: relative;
+}
+
+.top_bar ul li~li::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 17px;
+    top: 70%;
+    left: -10%;
+    background: #333;
+    transform: translateY(-50%);
+}
+
+.top_list ul {
+    display: flex;
+    float: right;
+    gap: 40px;
+}
+
+.top_list ul li a {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+header .container {
+    line-height: 100px;
+    width: 1200px;
+    height: 100px;
+    display: flex;
+    margin: 0 auto;
+
+}
+
+header .container>ul {
+    display: flex;
+    margin: 0 auto;
+    font-size: 25px;
+    font-weight: 500;
+    gap: 40px;
+}
+
+
+main {
+    position: relative;
+    margin: 0 auto;
+    border-top: 1px solid #000;
+}
+
+.main_slider {
+    position: relative;
+}
+
+.main_slider01 figure {
+    position: relative;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.main_slider01 .main_slider_figure01 {
+    background-image: url('../img/main_visual_hyndai01.jpg');
+}
+
+.main_slider01 .main_slider_figure02 {
+    background-image: url('../img/main_visual_hyndai02.jpg');
+}
+
+.main_slider01 .main_slider_figure03 {
+    background-image: url('../img/main_visual_hyndai03.jpg');
+}
+
+.main_slider01 .main_slider_figure04 {
+    background-image: url('../img/main_visual_hyndai04.jpg');
+}
+
+.main_slider01 .main_slider_figure05 {
+    background-image: url('../img/main_visual_hyndai05.jpg');
+}
+
+.main_slider01 .box {
+    width: 1200px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.main_slider .main_slider01 .slick-dots {
+    position: absolute;
+    width: 1200px;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main_slider01 .slick-dots li {
+    display: inline-block;
+    width: 200px;
+    height: 5px;
+    background: #555;
+}
+
+.main_slider01 .slick-dots li:after {
+    content: "";
+    display: block;
+    width: 0%;
+    height: 100%;
+    background: #fff;
+}
+
+.main_slider01 .slick-dots li.slick-active::after {
+    width: 100%;
+}
+
+.main_slider01 .slick-dots li:hover {
+    background: #fff;
+}
+
+.main_slider01 .slick-dots li button {
+    display: none;
+}
+
+.main_slider01 .slick-arrow {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 999;
+    font-size: 0;
+    border: none;
+    background: transparent;
+    width: 100px;
+    height: 100px;
+    border-top: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+
+.main_slider01 .slick-prev {
+    margin: 0 0 0 -700px;
+    transform: translate(-50%, -50%) rotate(-45deg);
+}
+
+.main_slider01 .slick-next {
+    margin: 0 0 0 700px;
+    transform: translate(-50%, -50%) rotate(135deg);
+}
+
+.login_bar {
+    position: relative;
+    height: 100px;
+    background: #f5f5f5;
+}
+
+.login_bar .login .container {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 50px;
+}
+
+.login_bar .login ul {
+    position: relative;
+    display: flex;
+    gap: 50px;
+}
+
+.login_bar .login ul li::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 1px;
+    height: 13px;
+    top: 20%;
+    left: 45%;
+    background: #333;
+}
+
+.information {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.information .title {
+    text-align: center;
+    line-height: 100px;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.main_slider02 {
+    display: flex;
+}
+
+.main_slider02 figure {
+    position: relative;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.main_slider02 .box {
+    position: relative;
+    height: 400px;
+    line-height: 40px;
+    text-align: center;
+    margin: 20px;
+    background: #ff9;
+}
+
+.main_slider02 .box .box_nav ul {
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.main_slider02 .box .box_nav ul li {
+    margin: 10px;
+    width: 100px;
+    font-size: 15px;
+    background: #00f;
+    color: #fff;
+}
+
+.main_slider .box .box_nav ul {
+    display: flex;
+}
+
+.main_slider02 .box .information01 {
+    background-image: url('../img/informationimg01.jpg');
+}
+
+.main_slider02 .box .information02 {
+    background-image: url('../img/informationimg02.jpg');
+}
+
+.main_slider02 .box .information03 {
+    background-image: url('../img/informationimg03.jpg');
+}
+
+.main_slider02 .box .information04 {
+    background-image: url('../img/informationimg04.jpg');
+}
+
+.main_slider02 .box .information05 {
+    background-image: url('../img/informationimg05.jpg');
+}
+
+.main_slider02 .box .information06 {
+    background-image: url('../img/informationimg06.jpg');
+}
+
+.main_slider02 .box .information07 {
+    background-image: url('../img/informationimg07.jpg');
+}
+
+.main_slider02 .box .information08 {
+    background-image: url('../img/informationimg08.jpg');
+}
+
+.main_slider02 .box .information09 {
+    background-image: url('../img/informationimg09.jpg');
+}
+
+.main_slider02 .box .information10 {
+    background-image: url('../img/informationimg10.jpg');
+}
+
+.main_slider02 .box .information11 {
+    background-image: url('../img/informationimg11.jpg');
+}
+
+.main_slider02 .box .information12 {
+    background-image: url('../img/informationimg12.jpg');
+}
+
+
+.main_slider02 h2 {
+    font-size: 35px;
+    font-weight: 500;
+}
+
+.main_slider02 p {
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.information .slick_angle i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    background: #ddd;
+}
+
+.information .slick_angle i:nth-child(1) {
+    margin: 0 0 0 -700px;
+}
+
+.information .slick_angle i:nth-child(2) {
+    margin: 0 0 0 700px;
+}
+
+.footer {
+    position: relative;
+    height: 200px;
+    background: #333;
+}
+
+.footer .container {
+    display: flex;
+    width: 1200px;
+    line-height: 100px;
+    margin: 0 auto;
+}
+
+.footer .container .logo {
+    margin: 0 100px 0 0;
+}
+
+
+.footer .container .footer_nav ul {
+    display: flex;
+    gap: 30px;
+}
+
+.footer .container .footer_nav ul a {
+    color: #fff;
+}
+
+.footer .icon {
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.footer .tel {
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+.footer .copyright {
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    color: #fff;
+}
