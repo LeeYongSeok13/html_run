@@ -43,7 +43,6 @@ header .container {
     height: 100px;
     display: flex;
     margin: 0 auto;
-
 }
 
 header .container>ul {
@@ -91,12 +90,6 @@ main {
 
 .main_slider01 .main_slider_figure05 {
     background-image: url('../img/main_visual_hyndai05.jpg');
-}
-
-.main_slider01 .box {
-    width: 1200px;
-    margin: 0 auto;
-    color: #fff;
 }
 
 .main_slider .main_slider01 .slick-dots {
@@ -242,7 +235,7 @@ main {
     color: #fff;
 }
 
-.main_slider .box .box_nav ul {
+.main_slider02 .box .box_nav ul {
     display: flex;
 }
 
@@ -320,6 +313,39 @@ main {
 
 .information .slick_angle i:nth-child(2) {
     margin: 0 0 0 700px;
+}
+
+.find_bar {
+    position: relative;
+    height: 200px;
+    background: url('../img/bg_main_filter.png') no-repeat center center/cover;
+}
+
+.find .container {
+    position: relative;
+    width: 1200px;
+    color: #fff;
+}
+
+.find .container h2 {
+    font-size: 35px;
+    font-weight: 700;
+    margin: 0 0 20px 0;
+}
+
+.find .container p {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.advertisement {
+    padding: 200px 0;
+    text-align: center;
+    color: #fff;
+}
+
+.advertisement i {
+    font-size: 30px;
 }
 
 .footer {

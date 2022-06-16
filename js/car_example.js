@@ -17,4 +17,13 @@ $(function () {
     $('.information .slick_angle i:nth-child(2)').on('click', function () {
         $('.main_slider02').slick('slickNext')
     });
+
+    $('#advertisementmp4').YTPlayer({ videoURL: 'https://www.youtube.com/watch?v=vOGXgCLncIs', containment: '.advertisement', autoplay: true, mute: true, showControls: false, playOnIfVisible: true });
+    $('.advertisement i:nth-child(1)').on('click', function () {
+        $('#advertisementmp4').YTPPause()
+    });
+
+    $('.advertisement i:nth-child(2)').on('click', function () {
+        $('#advertisementmp4').YTPPlay();
+    });
 })
